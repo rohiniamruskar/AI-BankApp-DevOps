@@ -27,4 +27,20 @@ spec:
    - port: 8080
      targetPort: 8080
 
-  type: NodePort   
+  type: NodePort
+
+---
+
+kind: Service
+apiVersion: v1
+
+metadata:
+  name: ollama-service
+  namespace: bankapp-namespace
+
+spec:
+  selector:
+    app: ollama
+  ports:
+   - port: 11434
+    
