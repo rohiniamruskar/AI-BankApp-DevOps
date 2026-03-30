@@ -21,13 +21,18 @@ metadata:
   namespace: bankapp-namespace
 
 spec:
+  type: NodePort
+  sessionAffinity: ClientIP
+  sessionAffinityConfig:
+    clientIP:
+      timeoutSeconds: 3600
   selector:
     app: bankapp
   ports:
    - port: 8080
      targetPort: 8080
+     nodePort: 30080
 
-  type: NodePort
 
 ---
 
