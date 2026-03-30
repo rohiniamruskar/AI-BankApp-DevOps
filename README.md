@@ -27,6 +27,7 @@ Trivy
 
 Git & GitHub
 
-AI Integration
+# AI Integration
 Ollama (Local LLM runtime)
+
 LLM container deployment in Kubernetes
