@@ -13,3 +13,20 @@ AI model deployment
 Multi-container architecture
 
 DevOps deployment practices
+
+# DevOps Tools
+Docker
+
+Kubernetes
+
+Kind (Kubernetes in Docker)
+
+Kubectl
+
+Trivy
+
+Git & GitHub
+
+AI Integration
+Ollama (Local LLM runtime)
+LLM container deployment in Kubernetes
