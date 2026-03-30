@@ -27,6 +27,7 @@ This project shows practical implementation of:
 - Kubernetes
 - Kind (Kubernetes in Docker)
 - Kubectl
+- Helm (Learning – not implemented in this project)
 ---
 
 ## AI Integration
