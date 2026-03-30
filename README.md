@@ -23,10 +23,6 @@ Kind (Kubernetes in Docker)
 
 Kubectl
 
-Trivy
-
-Git & GitHub
-
 # AI Integration
 Ollama (Local LLM runtime)
 
